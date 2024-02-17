@@ -1,15 +1,33 @@
-# Sidebar Menu
+# Do Tasks
 😃Check out my oldest simple project of taks manager
 
-### Version 0.1.1, using Semantic Versioning
+### 📤 Last Update:  v0.1.2, refactor README
 
-<!-- ## The website is ready! Tap the image below or this [link](https://danielmendessensei.github.io/SidebarMenu/) to access -->
+## 💻 The website is ready! Tap in this [link](https://danielmendessensei.github.io/Do-Tasks/) to access -->
 
-<!-- # Screenshots:
-[![Screenshot](assets/img/1.png 'Tap the image to access')](https://danielmendessensei.github.io/SidebarMenu/)  
+## 🤔 How to use
+Intuitively, you type the task you want and click on ADD. This will add your task to the container below, as shown in these images:
 
-[![Screenshot](assets/img/2.png 'Tap the image to access')](https://danielmendessensei.github.io/SidebarMenu/) 
+[![Screenshot](assets/img/1.png)]
+[![Screenshot](assets/img/2.png)]
 
-[![Screenshot](assets/img/4.png 'Tap the image to access')]https://danielmendessensei.github.io/SidebarMenu/) 
+If you have completed the task, click on it, so the task will have a line through, indicating that it has been completed.
 
-[![Screenshot](assets/img/3.png 'Tap the image to access')](https://danielmendessensei.github.io/SidebarMenu/)  -->
+[![Screenshot](assets/img/3.png)]
+
+you also can delete the task, by just clicking the icon: <img src="assets/img/4.png" width=75px height=60px/>
+
+## 📸 Screenshots
+[![Screenshot](assets/img/1.png)]
+[![Screenshot](assets/img/5.png)]
+
+## 🚀 Stack
+
+This project was developed with the following technologies:
+
+- HTML e CSS
+- JavaScript
+- Git e Github
+
+## 📜 License
+- This project is under MIT license.
