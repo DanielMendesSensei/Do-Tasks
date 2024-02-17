@@ -1,7 +1,7 @@
 # Sidebar Menu
 😃Check out my oldest simple project of taks manager
 
-### Version 1.0
+### Version 0.1.1, using Semantic Versioning
 
 <!-- ## The website is ready! Tap the image below or this [link](https://danielmendessensei.github.io/SidebarMenu/) to access -->
 
