@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,
+*:before,
+*:after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --color1: #8052ec;
+    --color2: #d161ff;
+    --color3: #addcca;
+    --color4: #aebe89;
+    --color5: #f1f1f1;
+    --color6: hsla(0, 0%, 0%, 0.3);
+    --color7: #d1d3d4;
+    --color8: #111111;
+}
+
+body
+{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        var(--color3),
+        var(--color4)
+    );
+}
+
+.container
+{
+    border: 2px solid var(--color5);
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+
+#newtask
+{
+    background-color: var(--color5);
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px var(--color6);
+}
+
+#newtask > input
+{
+    width: 70%;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    border: 2px solid var(--color7);
+    padding: 12px;
+    color: var(--color8);
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+#newtask input:focus
+{
+    outline: none;
+    border-color: var(--color4);
+}
+
+#newtask button
+{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    font-size: 1.3rem;
+    background-color: var(--color4);
+    border: none;
+    color: var(--color5);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#newtask button:hover
+{
+    color: var(--color8);
+    transition: all 0.5s ease;
+}
+
+#tasks
+{
+    background-color: var(--color5);
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px var(--color6);
+    width: 100%;
+    position: relative;
+}
+
+#task
+{
+    display: none;
+    background-color: var(--color5);
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--color7);
+    cursor: pointer;
+}
+
+#task span
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+#task button
+{
+    background-color: var(--color4);
+    color: var(--color5);
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+#task button:hover
+{
+    color: var(--color8);
+    transition: all 0.5s ease;
+}
