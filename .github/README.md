@@ -8,18 +8,19 @@
 ## 🤔 How to use
 Intuitively, you type the task you want and click on ADD. This will add your task to the container below, as shown in these images:
 
-[Screenshot](../assets/img/1.png)
-[Screenshot](../assets/img/2.png)
+<img src="../assets/img/1.png"/>
+<img src="../assets/img/2.png"/>
+
 
 If you have completed the task, click on it, so the task will have a line through, indicating that it has been completed.
+<img src="../assets/img/3.png"/>
 
-[Screenshot](../assets/img/3.png)
 
 you also can delete the task, by just clicking the icon: <img src="../assets/img/4.png" width=75px height=60px/>
 
 ## 📸 Screenshots
-[Screenshot](../assets/img/1.png)
-[Screenshot](../assets/img/5.png)
+<img src="../assets/img/1.png"/>
+<img src="../assets/img/5.png"/>
 
 ## 🚀 Stack
 
